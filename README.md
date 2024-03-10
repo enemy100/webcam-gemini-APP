@@ -12,28 +12,39 @@ python webcam_gemini.py
 #1. python libraries
 
 pip install PyQt5
+
 pip install opencv-python
+
 pip install python-dotenv
+
 pip install google-generativeai
+
 pip install google-ai-generativelanguage
+
 pip install elevenlabs
+
 pip install --upgrade pydantic
+
 pip install qasync
+
 pip install asyncSlot
+
 pip install QtCore
 
-#2. Install ffmpeg
+# 2. Install ffmpeg
+
 in my scenario, i used it to play the audios.
 
 https://www.wikihow.com/Install-FFmpeg-on-Windows
 
-#3. Get Gemini and elevenLabs API's:
+# 3. Get Gemini and elevenLabs API's:
 
 To get the Gemini API key:
 
 https://makersuite.google.com/app/apikey
 
 check if you are in one those available regions, if not, use vpn!
+
 https://ai.google.dev/available_regions
 
 therefore, if you ask to someone to get the API for you and try to use it in one not available country on the list above, you going to receive the error bellow:
