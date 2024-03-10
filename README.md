@@ -44,5 +44,5 @@ To get ElevenLabs API key:
 
 https://elevenlabs.io/api
 
-Both are free to use with their due limitations.
+Both are free to use with their due limitations. 
 
