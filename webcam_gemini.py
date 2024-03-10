@@ -1,15 +1,12 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Mar 10 00:05:18 2024
-
-@author: Ron
-"""
-
-# -*- coding: utf-8 -*-
-"""
 Created on Sat Mar  9 00:22:33 2024
 
 @author: Robson
+
+Linkedin:
+https://www.linkedin.com/in/robsongomespereira/
+
 """
 
 import sys
