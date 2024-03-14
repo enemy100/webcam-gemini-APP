@@ -3,6 +3,47 @@ This is an example of how we can use the API gemini to play with interesting thi
 
 The Gemini provides a multimodal model (gemini-pro-vision) that accepts both text and images as inputs. The model.generate_content API is designed handle multi-media prompts and returns a text output.
 
+# Conceptual Diagram
+
+# 1. Image Capture:
+
+Camera reads a frame.
+Frame is converted to a PIL Image.
+
+# 2. Text Input:
+
+User provides text in the textedit field.
+
+# 3. Gemini AI (Content Generation):
+
+Text and image are sent to the Gemini model.
+Gemini generates a descriptive response.
+
+# 4. Output:
+
+Gemini's response is appended to the textedit field.
+
+# 5. Text-to-Speech (ElevenLabs):
+
+ElevenLabs API is used with specified voice settings.
+Generated response from Gemini is converted to audio.
+Audio is played.
+
+
+Diagram:
+
++-------------------+      +----------------------+      +-------------------+
+|  Image Capture    | ---> |  Gemini Content      | ---> |  ElevenLabs TTS   | 
+|   - Read Frame    |      |  Generation          |      |   - Convert Text  |
+|   - Convert       |      |  - Input: Text       |      |     to Audio      |
++-------------------+      |      & Image         |      |   - Play Audio    |
+         |               +----------------------+      +-------------------+
+         V                                                   |
+     +--------------+                                        V
+     |   Text Input |                                 Output to Textedit
+     +--------------+    
+
+
 # How to run
 
 python webcam_gemini.py
@@ -50,6 +91,7 @@ https://ai.google.dev/available_regions
 therefore, if you ask to someone to get the API for you and try to use it in one not available country on the list above, you going to receive the error bellow:
 
 400 User location is not supported for the API use.
+
 
 To get ElevenLabs API key:
 
