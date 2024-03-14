@@ -32,16 +32,8 @@ Audio is played.
 
 Diagram:
 
-+-------------------+      +----------------------+      +-------------------+
-|  Image Capture    | ---> |  Gemini Content      | ---> |  ElevenLabs TTS   | 
-|   - Read Frame    |      |  Generation          |      |   - Convert Text  |
-|   - Convert       |      |  - Input: Text       |      |     to Audio      |
-+-------------------+      |      & Image         |      |   - Play Audio    |
-         |               +----------------------+      +-------------------+
-         V                                                   |
-     +--------------+                                        V
-     |   Text Input |                                 Output to Textedit
-     +--------------+    
+![image](https://github.com/enemy100/webcam-gemini-APP/assets/29072854/450a93d9-9fad-40ea-ad83-e1b567e67d23)
+   
 
 
 # How to run
@@ -72,13 +64,13 @@ pip install asyncSlot
 
 pip install QtCore
 
-# 2. Install ffmpeg
+# Install ffmpeg
 
 in my scenario, i used it to play the audios.
 
 https://www.wikihow.com/Install-FFmpeg-on-Windows
 
-# 3. Get Gemini and elevenLabs API's:
+# Get Gemini and elevenLabs API's:
 
 To get the Gemini API key:
 
