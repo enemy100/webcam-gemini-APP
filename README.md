@@ -1,7 +1,7 @@
 # webcam-gemini-APP
 This is an example of how we can use the API gemini to play with interesting things, such as use your own webcam to make question to gemini and the elevenLabs to synthetize the response for fun.
 
-The Gemini provides a multimodal model (gemini-pro-vision) that accepts both text and images and inputs. The model.generate_content API is designed handle multi-media prompts and returns a text output.
+The Gemini provides a multimodal model (gemini-pro-vision) that accepts both text and images as inputs. The model.generate_content API is designed handle multi-media prompts and returns a text output.
 
 # How to run
 
