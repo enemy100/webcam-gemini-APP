@@ -50,6 +50,8 @@ pip install opencv-python
 
 pip install python-dotenv
 
+pip install pyaudio
+
 pip install google-generativeai
 
 pip install google-ai-generativelanguage
