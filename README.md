@@ -56,6 +56,8 @@ pip install google-ai-generativelanguage
 
 pip install elevenlabs
 
+pip install SpeechRecognition
+
 pip install --upgrade pydantic
 
 pip install qasync
